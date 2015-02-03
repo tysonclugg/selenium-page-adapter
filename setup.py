@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """PageAdapter pattern for Python Selenium browser test abstraction."""
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='selenium_page_adapter',
@@ -11,7 +11,7 @@ setup(
     author_email='tyson@clugg.net',
     url='https://selenium_page_adapter.readthedocs.org/en/latest/',
     license='MIT',
-    packages=['selenium_page_adapter'],
+    packages=find_packages(),
     test_suite='selenium_page_adapter.tests',
     install_requires=[
         'selenium',
