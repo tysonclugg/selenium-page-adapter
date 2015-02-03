@@ -1,10 +1,11 @@
 selenium_page_adapter
-=====
+=====================
 
-Selenium_Page_Adapter_ provides a Python PageAdapter pattern for
+`Selenium page adapter`_ provides a Python PageAdapter pattern for
 Selenium_ browser test abstraction.
 
-.. image:: https://travis-ci.org/tysonclugg/selenium_page_adapter.svg?branch=master
+.. image:: 
+https://travis-ci.org/tysonclugg/selenium_page_adapter.svg?branch=master
     :target: https://travis-ci.org/tysonclugg/selenium_page_adapter
     :alt: Build Status
 .. image:: https://pypip.in/v/selenium_page_adapter/badge.png
@@ -15,6 +16,7 @@ Selenium_Page_Adapter_ works with both Python 2 and Python 3.  Continuous integr
 testing is performed against the latest python 2.7 and python 3.3 
 releases.
 
-.. _Selenium_Page_Adapter: 
+.. _Selenium Page Adapter: 
 https://selenium_page_adapter.readthedocs.org/en/latest/
-.. _Selenium: http://selenium-python.readthedocs.org/
+.. _Selenium:
+http://selenium-python.readthedocs.org/
