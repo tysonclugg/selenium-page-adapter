@@ -1,11 +1,11 @@
 language: python
-python:
-- '3.3'
-- '2.7'
+env:
+- TOXENV=py27
+- TOXENV=py34
 install:
-- pip install -r requirements.txt
+- pip install -r requirements.txt -r requirements-tests.txt
 script:
-- python setup.py test
+- tox
 notifications:
   flowdock:
     secure: NLWhZq2aD3ewRciEzJVcIeWKKaBt34loZqWITiI+XA3vyUkyW7BSo46ssZMPEfepdCu4ASiXJOwdMy0IummtW3WMSVjIpZ9OUUJX20inR0yk1YxaQ2kZdDGuFe/aSP3usFX3Bz6o1ufme3LwLQXhrKt79uI6r2JOz4VnK4nZE3k=

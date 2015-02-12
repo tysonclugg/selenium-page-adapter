@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='selenium_page_adapter',
-    version='0.1.0',
+    version='0.2.0',
     description=__doc__,
     long_description=open('README.rst').read(),
     author='Tyson Clugg',
